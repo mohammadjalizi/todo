@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: iransans;
+}
+
+
+body {
+    direction: rtl;
+    background-color: #333;
+}
+
+.title {
+    text-align: center;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+.datas {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input {
+    width: 16rem;
+    height: 40px;
+    outline: none;
+    font-size: .90rem;
+}
+
+.task {
+    padding: 8px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.btn {
+    color: #fff;
+    background: #66A182;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.users {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.user {
+    color: #fff;
+    width: 9.5rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.user-ali {
+    background-color: #3bec24;
+    border: 2px solid #32dd1b;
+}
+
+.user-amin {
+    background-color: #ec7024;   
+    border: 2px solid #d46018;
+}
+
+.user-mmd {
+    background-color: #d524ec;   
+    border: 2px solid #c11dd6;
+}
+
+.user-babak {
+    background-color: #24a0ed;   
+    border: 2px solid #1a86c9;
+}
+
+.tasks {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.user-tasks {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-task {
+    color: #fff;
+    width: 9.5rem;
+    text-align: center;
+    border: 1px solid #ec24a0;
+    padding: 10px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+i {
+    cursor: pointer;
+}
