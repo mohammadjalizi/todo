@@ -105,6 +105,39 @@ body {
 i {
     cursor: pointer;
 }
-@media screen (ma){
+
+@media(max-width:500px){
+
+ .datas {
+
+    flex-direction: column;
+    position: relative;
+    margin-right: 20%;
+ }
+ .user-ali{
+    width: 21%;
+    margin-left: 24px;
+
+ }
+ .user-amin{
+    width: 21%;
+    margin-left: 24px;
+
+ }
+ .user-babak{
+    width: 21%;
+    margin-left: 24px;
+
+ }
+ .user-mmd{
+    width: 21%;
+    margin-left: 24px;
+
+ }
+ .main-task{
+
+margin-left: 34px;
+width: 5.5rem;
+ }
 
 }
